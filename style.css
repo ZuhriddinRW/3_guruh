@@ -136,16 +136,16 @@ h1 {
   background-color: orange;
 }
 
-.links li a:hover{
+.links li a:hover {
   color: orange;
 }
 
 /* Zuhriddin */
 
 /* mirjalol */
-.mirjalol{
-width: 100%;
-background-color: #F8F8F8;
+.mirjalol {
+  width: 100%;
+  background-color: #F8F8F8;
 }
 
 
@@ -254,6 +254,7 @@ background-color: #F8F8F8;
   flex-wrap: wrap;
   color: #555555;
 }
+
 /* begzod */
 
 /* Abuabkr */
@@ -331,6 +332,105 @@ body {
 
 /* abuabkr */
 
+/* Sardor - Ismatullaev */
+
+.Work-back {
+  margin-top: 87px;
+  background-image: url(./img/sr-img.png);
+  height: 324px;
+
+  .Work-back2 {
+    background-color: #C1301D99;
+    height: 324px;
+  }
+
+  .Work-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+    h1 {
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      color: #FFFFFF;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+      line-height:29.26px;
+      margin-bottom: 41px;
+    }
+
+    button{
+      width: 157px;
+      height: 44px;
+      border: 2px solid #fff;
+      color: #fff;
+      background-color: rgba(255, 0, 0, 0);
+
+      &:hover{
+        background-color: #ffffff;
+        color: black;
+        transition: 0.4s
+      }
+    }
+  }
+}
+
+#Posts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1{
+    color: #555555;
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  .a{
+    width: 44px;
+    height: 2px;
+    border: 1px solid #555555;
+  }
+}
+
+.RECENT{
+  margin-top: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+
+  .text-1{
+    margin-top: -110px;
+    h1{
+      text-align: start;
+      font-size: 15px;
+      color: #C1301D;
+      margin-bottom: 10px;
+    }
+
+    h3{
+      text-align: start;
+      font-size: 15px;
+      color: #C1301D;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+/* Sardor - Ismatullaev */
+
 /* mehrubon  */
 .testimonial-section {
   max-width: 100%;
@@ -338,7 +438,7 @@ body {
   margin: 50px auto;
   text-align: center;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #f1f1f1;
   padding-top: 103px;
   margin-bottom: 0px;
 }
